@@ -1,0 +1,25 @@
+= Описание API по супермаркетам
+
+== Методы
+
+|===
+|Метод | Назначение
+|'PUT'
+|Обновить сущность или ее состояние
+|===
+
+=== Открытие супермаркета
+
+Можно открывать магазины со статусом *Open*
+
+.request
+
+include::{snippets}/open_supermarket/http]-request.adoc[]
+
+.response
+
+include::{snippets}/open_supermarket/http-response.adoc[]
+
+.response-fields
+
+include::{snippets}/open_supermarket/response-fields.adoc[]
